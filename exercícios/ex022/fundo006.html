@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
             body {
                 height: 100vh;
+                /*
                 background-color: black;
                 background-image: url('imagens/wallpaper002.jpg');
                 background-position: center top;
                 background-repeat: no-repeat;
                 background-size: cover;
+                background-attachment: fixed;
+                */
+                
+
+                /*  Shorthand - background
+                    color > image >  repeat > attachment > position > size
+                
+                */
+
+                background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center;
+                background-size: cover;
             }
 
             main {
                 background-color: white;
-                width: 400px;
+                max-width: 400px;
                 padding: 10px;
                 margin: auto;
                 border: 1px solid darkblue;
@@ -33,7 +45,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed reiciendis facere dolorum earum voluptas aliquam dolorem iste soluta sit facilis sapiente dolores adipisci id delectus iure quia vero, nulla nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quam ratione voluptates esse iusto magni sed iure nemo? Libero illum facilis vel ratione sit fugiat beatae, mollitia corporis dignissimos laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique quaerat consequatur cupiditate ea facere quasi harum numquam quidem labore dignissimos rerum ipsam sapiente nobis, assumenda commodi unde sit corporis.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed reiciendis facere dolorum earum voluptas aliquam dolorem iste soluta sit facilis sapiente dolores adipisci id delectus iure quia vero, nulla nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quam ratione voluptates esse iusto magni sed iure nemo? Libero illum facilis vel ratione sit fugiat beatae, mollitia corporis dignissimos laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique quaerat consequatur cupiditate ea facere quasi harum numquam quidem labore dignissimos rerum ipsam sapiente nobis, assumenda commodi unde sit corporis.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed reiciendis facere dolorum earum voluptas aliquam dolorem iste soluta sit facilis sapiente dolores adipisci id delectus iure quia vero, nulla nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quam ratione voluptates esse iusto magni sed iure nemo? Libero illum facilis vel ratione sit fugiat beatae, mollitia corporis dignissimos laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique quaerat consequatur cupiditate ea facere quasi harum numquam quidem labore dignissimos rerum ipsam sapiente nobis, assumenda commodi unde sit corporis.</p>
-            
+
         </main>
     
 </body>
