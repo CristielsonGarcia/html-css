@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
         <h1>CineWave</h1>
         <p>Explorando o universo mágico do cinema, onde cada filme é uma jornada única e cada tela conta uma história extraordinária. <strong>Bem vindo</strong> ao nosso espaço dedicado à sétima arte, onde a magia se desenrola frame a frame.</p>
         <hr>
-        <picture>
-            <source media="(min-width: 500px )" srcset="imagem/Interstellar-200.png" type="image/png">
-            <img src="imagem/Interstellar-500.png" alt="Interstellar">
-        </picture>
+
+        <a href="filme01.html">
+            <abbr title="Interstellar">
+                <picture>
+                    <source media="(max-width: 1000px )" srcset="imagem/Interstellar-200.png" type="image/png">
+                    <img src="imagem/Interstellar-500.png" alt=" Capa Interstellar">
+                </picture>
+            </abbr>
+        </a>
         
-        <img src="imagem/jurassic-200.png" alt="Jurassic World 2">
-        <img src="imagem/vingadores-200.png" alt="Vingadores">
+        <abbr title="Jurassic World">
+            <picture>
+                <source media="(max-width: 1000px)" srcset="imagem/jurassic-200.png" type="image/png">
+                <img src="imagem/jurassic-500.png" alt="Capa Jurassic World 2">
+            </picture>
+        </abbr>
+
+        <abbr title="Vingadores">
+            <picture>
+                <source media="(max-width: 1000px)" srcset="imagem/vingadores-200.png" type="image/">
+                <img src="imagem/vingadores-200.png" alt="Capa Vingadores">
+            </picture>
+        </abbr>
         
 </body>
 </html>
